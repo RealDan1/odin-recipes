@@ -1,0 +1,17 @@
+body {
+    background-color: teal;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Arial;
+}
+
+.headings {
+    color: rgb(51, 255, 0);
+    background-color: rgb(225, 151, 60);
+}
+
+.alert {
+    color: rgb(242, 0, 255);
+}
+
+
+
