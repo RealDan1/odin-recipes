@@ -1,7 +1,8 @@
 * {
-    border-color: red;
-    border-width: 10px;
-    }
+    border: 2px ;
+    margin: 3px;
+    padding: 2px;
+}
 body {
     background-color: teal;
     text-align: center;
