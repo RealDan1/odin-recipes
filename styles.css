@@ -3,11 +3,17 @@
     margin: 3px;
     padding: 2px;
     border-radius: 5px;
+   
 }
 body {
     background-color: teal;
-    text-align: center;
+   
     font-family: 'Georgia', 'Times New Roman', Arial;
+    text-align: center;
+}
+li {
+    width: 500px;
+    margin: 0 Auto;
 }
 
 .headings {
