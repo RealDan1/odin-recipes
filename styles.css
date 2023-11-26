@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    /* border: 1px; */
 }
 body {
     background-color: teal;
@@ -9,11 +9,16 @@ body {
 li {
     width: 500px;
     margin: 0 Auto;
+    
+
 }
 
 .headings {
-    color: rgb(51, 255, 0);
+    color: rgb(255, 230, 0);
     background-color: rgb(225, 151, 60);
+    padding: 4px;
+    margin: 8px;
+    border: 1px solid rgb(0, 128, 255);
 }
 
 .alert {
