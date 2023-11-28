@@ -18,6 +18,10 @@ li {
     background-color: rgb(225, 151, 60);
 }
 
+.section {
+    color: blueviolet;
+}
+
 .alert {
     color: rgb(242, 0, 255);
 }
