@@ -5,6 +5,7 @@ body {
     background-color: rgb(207, 241, 241);
     font-family: 'Georgia', 'Times New Roman', Arial;
     text-align: center;
+    width: 750px;
 }
 li {
     width: 500px;
