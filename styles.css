@@ -25,10 +25,14 @@ li {
     color: rgb(242, 0, 255);
 }
 .alert-parent {
-    display: flex;
+    /* display: flex; */
     border: solid red 1px;
-    width: 350px;
-    height: auto;
+    /* width: 350px; */
+    /* height: auto; */
+    float: top-right;
+    shape-outside: square;
+    height: 200px;
+    width: 200px;
 }
 .steps-tip-parent {
     display: flex;
@@ -36,5 +40,6 @@ li {
 }
 #steps-roast {
     border: solid purple;
+    margin: 0;
 }
 
