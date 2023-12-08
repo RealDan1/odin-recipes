@@ -36,7 +36,7 @@ li {
     /* width: 200px; */
     
 }
-.steps-tip-parent {
+.steps-text-box {
     display: flex;
     border: solid yellow 1px;
 }
