@@ -12,8 +12,14 @@ li {
     /* width: 500px; */
     /* margin: 0 Auto; */
 }
-.headings {
+.headings1 {
     color: rgb(255, 230, 0);
+    background-color: rgb(225, 151, 60);
+    padding: 4px;
+    margin: 8px;
+    border: 1px solid rgb(0, 128, 255);
+}
+.headings3 {
     background-color: rgb(225, 151, 60);
     padding: 4px;
     margin: 8px;
@@ -21,11 +27,19 @@ li {
 }
 .section {
     color: blueviolet;
+    padding: 4px;
+    margin: 8px;
+    background-color: rgb(225, 151, 60);
+    border-radius: 40%;
+    border: 1px solid rgb(0, 128, 255);
+    border-style: groove;
+    
 }
+
 .tip-text {
     color: rgb(242, 0, 255);
 }
-.alert-parent {
+.alert-box {
     display: flex;
     border: solid red 1px;
     flex: 1 1 auto;
