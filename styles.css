@@ -53,10 +53,21 @@ li {
 .steps-text-box {
     display: flex;
     border: solid yellow 1px;
+    flex: 1;
+    justify-content: space-between;
 }
 #steps-roast {
     border: solid purple;
     flex: 1 1 auto;
-    justify-content: space-around;
+
+}
+#blank-box-roast {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    flex: initial;
+    margin: 8px;
+    margin-top: 16px;
 }
 
