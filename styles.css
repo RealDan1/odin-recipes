@@ -2,8 +2,9 @@
      border: 1px; 
 }*/
 body {
-    background-color: rgb(207, 241, 241);
-    font-family: 'Georgia', 'Times New Roman', Arial;
+    background-color: rgba(21, 21, 46, 0.684);
+    color: antiquewhite;
+    font-family: 'arial', 'Times New Roman', Arial;
     text-align: center;
     /* width: 750px;     */
     list-style-position: inside;
@@ -13,31 +14,35 @@ li {
     /* margin: 0 Auto; */
 }
 .headings1 {
-    color: rgb(255, 230, 0);
-    background-color: rgb(225, 151, 60);
+   color: antiquewhite;
+    background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
     margin: 8px;
-    border: 1px solid rgb(0, 128, 255);
+    /* border: 1px solid rgb(0, 128, 255); */
+    border-radius: 5px;
 }
 .headings3 {
-    background-color: rgb(225, 151, 60);
+    background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
     margin: 8px;
-    border: 1px solid rgb(0, 128, 255);
+    /* border: 1px solid rgb(0, 128, 255); */
+    border-radius: 5px;
 }
 .section {
-    color: blueviolet;
+    color: antiquewhite;
     padding: 4px;
     /* margin: 8px; */
-    background-color: rgb(225, 151, 60);
-    border-radius: 40%;
-    border: 1px solid rgb(0, 128, 255);
-    border-style: groove;
+    background-color: rgba(58, 67, 109, 0.588);
+    border-radius: 5px;
+    /* border: 1px solid rgb(0, 128, 255); */
+    /* border-style: groove; */
     
 }
 
 .tip-text {
-    color: rgb(242, 0, 255);
+    color: rgba(10, 255, 120, 0.551);
+    /* border: solid 1px red; */
+    
 }
 .alert-box {
     display: flex;
