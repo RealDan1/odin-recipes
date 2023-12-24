@@ -14,7 +14,8 @@ li {
     /* width: 500px; */
     /* margin: 0 Auto; */
 }
-.headings1 {
+.headings1,
+.headings2 {
    color: antiquewhite;
     background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
@@ -23,15 +24,14 @@ li {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-.headings2 {
+/* .headings2 { 
     color: antiquewhite;
     background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
     margin: 8px;
-    /* border: 1px solid rgb(0, 128, 255); */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
+} */
 .headings3 {
     background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
