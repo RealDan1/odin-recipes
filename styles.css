@@ -8,6 +8,7 @@ body {
     text-align: center;
     /* width: 750px;     */
     list-style-position: inside;
+    
 }
 li {
     /* width: 500px; */
@@ -20,6 +21,7 @@ li {
     margin: 8px;
     /* border: 1px solid rgb(0, 128, 255); */
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .headings3 {
     background-color: rgba(58, 67, 109, 0.588);
@@ -27,6 +29,7 @@ li {
     margin: 8px;
     /* border: 1px solid rgb(0, 128, 255); */
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .section {
     color: antiquewhite;
@@ -36,6 +39,7 @@ li {
     border-radius: 5px;
     /* border: 1px solid rgb(0, 128, 255); */
     /* border-style: groove; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
     
 }
 
@@ -77,4 +81,25 @@ li {
     margin: 8px;
     margin-top: 16px;
 }*/
+
+.button-container {
+display: flex;
+justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(58, 67, 109, 0.588); 
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+}
+img {
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
+}
 
