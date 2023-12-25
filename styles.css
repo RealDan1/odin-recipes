@@ -108,7 +108,19 @@ button {
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
 }
+button:hover {
+    background-color: rgba(91, 100, 144, 0.588)
+}
 img {
     box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
 }
-
+#feedback-parent-box {
+    display: flex;
+}
+#image-feedback-box {
+    flex: 1;
+}
+#feedback-box {
+    flex: auto;
+    align-items: end;
+}
