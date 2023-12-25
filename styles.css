@@ -114,7 +114,7 @@ button:hover {
 img {
     box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
 }
-#feedback-parent-box {
+/* #feedback-parent-box {
     display: flex;
 }
 #image-feedback-box {
@@ -122,5 +122,6 @@ img {
 }
 #feedback-box {
     flex: auto;
-    align-items: end;
-}
+    flex-basis: 90px;
+    border: solid red 1px;
+} */
