@@ -107,6 +107,7 @@ button {
     text-align: center;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /* NB!must make this button look the same as the buttons in the feedback section NB */
 }
 button:hover {
     background-color: rgba(91, 100, 144, 0.588)
@@ -138,9 +139,10 @@ img {
     font-size: 16px;
     font-family: 'arial', 'Times New Roman', Arial;
 }
-#select:hover {
+#select-fav:hover {
     background-color: rgba(98, 134, 197, 0.588);
 }
+
 #next-recipe-inp {
     color: #ffffff; 
     background-color: rgba(98, 114, 197, 0.588);
@@ -156,5 +158,8 @@ img {
 } 
 
 #next-recipe-inp::placeholder {
-    color: antiquewhite;
+    color: rgba(250, 235, 215, 0.454);
+}
+#next-recipe-inp:hover {
+    background-color: rgba(98, 134, 197, 0.588);
 }
