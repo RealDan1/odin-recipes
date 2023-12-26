@@ -10,24 +10,42 @@
     <h1 class="headings1">Flavorful Feedback!</h1>
     <p>Welcome to Odin Recipes' Flavorful Feedback Survey!
         We hope you've enjoyed savoring the delectable recipes featured on Odin Recipes. Your taste experience matters, and now it's your time to be the chef's choice critic! Tell us which of the three recipes—Carbonara, Roast Chicken, or Chicken Stir Fry—was your absolute favorite. We'd love to know what tickled your taste buds!
-        Favorite Recipe: (Select one)
+        Favorite Recipe: </p>
         <div id="feedback-parent-box">
-            <form action="get" id="feedback-box">
+            <!-- <form action="get" id="feedback-box">
                 <input type="radio" name="Favourite Recipe">Carbonara</button>
                 <br>
                 <input type="radio" name="Favourite Recipe">Roast Chicken</button>
                 <br>
                 <input type="radio" name="Favourite Recipe">Chicken Stir Fry</button>
-            </form>
+            </form> -->
+            <br>
+            <select name="favourite-recipe-select" id="select-fav">
+                <option value="--">--- Please Select ---</option>
+                <option value="Carbonara">Carbonara</option>
+                <option value="Roast Chicken">Roast Chicken</option>
+                <option value="Chicken Stir Fry">Chicken Stir Fry</option>
+            </select>
             <!-- <div id="image-feedback-box">
             this is an image
             </div> -->
         </div>
         
         <br>
-        Now that you've picked your favorite, let us in on your culinary desires! What recipe would you love to see featured next on Odin Recipes? Whether it's a cozy lasagna, a zesty Thai curry, or any other delightful dish, your input will be the inspiration for our next creation.
-        Next Recipe Wishlist: (Type your desired recipe)
-        Thank you for being a crucial part of our culinary community. Your feedback fuels our passion for bringing you the recipes you crave. Let the flavor-filled suggestions begin! </p>
+        <p>Now that you've picked your favorite, let us in on your culinary desires! What recipe would you love to see featured next on Odin Recipes? Whether it's a cozy lasagna, a zesty Thai curry, or any other delightful dish, your input will be the inspiration for our next creation.</p>
+        <p>Next Recipe Wishlist:</p>
+        <form action="get">
+            <input type="text" id="next-recipe-inp" placeholder="Suggest the next recipe...">
+        
+        </form>
+
+       <p>Thank you for being a crucial part of our culinary community. Your feedback fuels our passion for bringing you the recipes you crave. Let the flavor-filled suggestions begin! </p>
+
+       <h3 class="headings3 section">Links:</h3>
+    <ul>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="#mheading">Back to top</a></li>
+    </ul>
 
 
 </body>
