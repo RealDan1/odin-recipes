@@ -40,6 +40,28 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+/* nav {
+    background-color: rgba(58, 67, 109, 0.588);
+      color: white;
+      padding: 10px;
+    } */
+
+nav {
+        padding: 12px;
+        border-bottom: 1px solid
+          hsla(254, 51%, 33%, 0.257);
+      }
+
+nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+nav a:hover {
+      text-decoration: underline;
+    }
 .section {
     color: antiquewhite;
     padding: 4px;
