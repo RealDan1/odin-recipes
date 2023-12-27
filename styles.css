@@ -9,29 +9,15 @@ body {
     /* width: 750px;     */
     list-style-position: inside;
 }
-
-/* li {
-     width: 500px; 
-     margin: 0 Auto; 
-} */
 .headings1,
 .headings2 {
     color: antiquewhite;
     background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
     margin: 8px;
-    /* border: 1px solid rgb(0, 128, 255); */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-/* .headings2 { 
-    color: antiquewhite;
-    background-color: rgba(58, 67, 109, 0.588);
-    padding: 4px;
-    margin: 8px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-} */
 .headings3 {
     background-color: rgba(58, 67, 109, 0.588);
     padding: 4px;
@@ -48,20 +34,20 @@ body {
     } */
 
 nav {
-        padding: 12px;
-        border-bottom: 1px solid
-          hsla(254, 51%, 33%, 0.257);
-      }
+    padding: 12px;
+    border-bottom: 1px solid
+      hsla(254, 51%, 33%, 0.257);
+}
 
 nav a {
       color: white;
       text-decoration: none;
       margin-right: 15px;
-    }
+}
 
 nav a:hover {
       text-decoration: underline;
-    }
+}
 .section {
     color: antiquewhite;
     padding: 4px;
@@ -119,16 +105,6 @@ nav a:hover {
 }
 
 #take-survey-btn {
-    /* padding: 10px 20px;
-    border-radius: 5px;
-    background-color: rgba(58, 67, 109, 0.588); 
-    color: #ffffff; 
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
     color: #ffffff; 
     background-color: rgba(98, 114, 197, 0.588);
     height: 45px;
@@ -141,7 +117,6 @@ nav a:hover {
     font-size: 16px;
     cursor: pointer;
     font-family: 'arial', 'Times New Roman', Arial;
-    /* NB!must make this button look the same as the buttons in the feedback section NB */
 }
 #take-survey-btn:hover {
     background-color: rgba(98, 134, 197, 0.588);
@@ -149,17 +124,7 @@ nav a:hover {
 img {
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.478);
 }
-/* #feedback-parent-box {
-    display: flex;
-}
-#image-feedback-box {
-    flex: 1;
-}
-#feedback-box {
-    flex: auto;
-    flex-basis: 90px;
-    border: solid red 1px;
-} */
+
 #select-fav {
     color: #ffffff; 
     background-color: rgba(98, 114, 197, 0.588);
