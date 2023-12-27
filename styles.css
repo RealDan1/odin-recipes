@@ -118,8 +118,8 @@ nav a:hover {
     justify-content: center;
 }
 
-button {
-    padding: 10px 20px;
+#take-survey-btn {
+    /* padding: 10px 20px;
     border-radius: 5px;
     background-color: rgba(58, 67, 109, 0.588); 
     color: #ffffff; 
@@ -128,14 +128,26 @@ button {
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+    color: #ffffff; 
+    background-color: rgba(98, 114, 197, 0.588);
+    height: 45px;
+    width: 200px;
+    border: 1px solid #808080;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'arial', 'Times New Roman', Arial;
     /* NB!must make this button look the same as the buttons in the feedback section NB */
 }
-button:hover {
-    background-color: rgba(91, 100, 144, 0.588)
+#take-survey-btn:hover {
+    background-color: rgba(98, 134, 197, 0.588);
 }
 img {
-    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.478);
 }
 /* #feedback-parent-box {
     display: flex;
@@ -160,6 +172,7 @@ img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     font-size: 16px;
     font-family: 'arial', 'Times New Roman', Arial;
+    cursor: pointer;
 }
 #select-fav:hover {
     background-color: rgba(98, 134, 197, 0.588);
