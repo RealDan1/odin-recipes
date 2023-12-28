@@ -35,8 +35,9 @@ body {
 
 nav {
     padding: 12px;
-    border-bottom: 1px solid
-      hsla(254, 51%, 33%, 0.257);
+    border-bottom: 1px solid;
+    color: hsl(254, 51%, 33%, 0.257);
+    display: flex;
 }
 
 nav a {
@@ -44,6 +45,11 @@ nav a {
       text-decoration: none;
       margin-right: 15px;
 }
+#home-a {
+    margin-right: auto;
+}
+
+
 
 nav a:hover {
       text-decoration: underline;
