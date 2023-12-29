@@ -1,5 +1,5 @@
 /* * { 
-     border: 1px; 
+     border: solid red 1px; 
 } */
 body {
     background-color: rgba(21, 21, 46, 0.684);
@@ -8,6 +8,7 @@ body {
     text-align: center;
     /* width: 750px;     */
     list-style-position: inside;
+    
 }
 
 /* headings */
@@ -49,6 +50,12 @@ nav a {
 
 nav a:hover {
       text-decoration: underline;
+}
+
+/* images */
+
+img {
+    margin: 15px;
 }
 /* sections or paragraphs*/
 
