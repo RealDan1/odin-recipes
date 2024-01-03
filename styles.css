@@ -1,6 +1,6 @@
-/* * { 
+* { 
      border: solid red 1px; 
-} */
+}
 body {
     background-color: rgba(21, 21, 46, 0.684);
     color: antiquewhite;
@@ -59,6 +59,8 @@ img {
 }
 /* sections or paragraphs*/
 
+
+
 .section {
     color: antiquewhite;
     padding: 4px;
@@ -68,6 +70,22 @@ img {
     /* border: 1px solid rgb(0, 128, 255); */
     /* border-style: groove; */
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-section {
+    width: 800px;
+    
+
 }
 
 #intro-p-box {
